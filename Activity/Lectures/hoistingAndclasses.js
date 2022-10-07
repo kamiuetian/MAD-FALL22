@@ -37,9 +37,16 @@ let T1 = new Teacher("ALi", 20000, "CS");
 //console.log(T1.display());
 
 /**Hoisting */
-console.log(`before declaration: ${a}`);
+/* console.log(`before declaration: ${a}`);
 
 let a;
 console.log(`after declaration: ${a}`);
 a = 30;
-console.log(`after initialization: ${a}`);
+console.log(`after initialization: ${a}`); */
+
+console.log(a);
+let a = 20;
+/* console.log(sum(2, 3));
+function sum(a, b) {
+  return a + b;
+} */
