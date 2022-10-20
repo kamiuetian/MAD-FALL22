@@ -1,6 +1,10 @@
 # MAD-FALL22
 
 Repo for data sharing
+## Important Reference Links
+- Installation:  https://reactnative.dev/docs/environment-setup
+- React Concepts: https://reactnative.dev/docs/intro-react
+- Components and APIs: https://reactnative.dev/docs/components-and-apis
 ## Class Activities
 - https://github.com/kamiuetian/MAD-FALL22/tree/main/Activity/React%20Native%20Activity 
 ## React Native Styles Cheat Sheet
