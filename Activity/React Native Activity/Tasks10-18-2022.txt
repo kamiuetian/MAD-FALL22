@@ -1,0 +1,7 @@
+Create a chess Board using flexbox.
+
+Display the record of 10 students in a list.
+
+Data contains Image, Name.
+The whole item should be clickable and on click it 
+displays the name in console.
