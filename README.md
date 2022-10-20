@@ -12,8 +12,8 @@ Repo for data sharing
 - https://github.com/vhpoet/react-native-styling-cheat-sheet
 ## Assignments
 ### Lab Assignemnt#2
-- **DueDate: 28-10-2022 ** https://github.com/kamiuetian/MAD-FALL22/blob/main/Assignments/Assignemnt-2.docx
+- ** DueDate: 28-10-2022 ** https://github.com/kamiuetian/MAD-FALL22/blob/main/Assignments/Assignemnt-2.docx
 
 ### Theory Assignment # 2
-- **DueDate: 04-11-2022 ** https://github.com/kamiuetian/MAD-FALL22/blob/main/Assignments/Theory%20Assignments/Assignemnt-2(Theory).docx
+- ** DueDate: 04-11-2022 ** https://github.com/kamiuetian/MAD-FALL22/blob/main/Assignments/Theory%20Assignments/Assignemnt-2(Theory).docx
 
