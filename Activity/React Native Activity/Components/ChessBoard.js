@@ -1,4 +1,4 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Image } from "react-native";
 function ChessBoard(props) {
   const blocks = [];
   for (let index = 1; index <= 8; index++) {
@@ -8,9 +8,9 @@ function ChessBoard(props) {
           style={
             index % 2 == 0
               ? yindex % 2 == 0
-                ? styles.bblock
-                : styles.gblock
-              : yindex % 2 != 0
+                ? styles.gblock
+                : styles.bblock
+              : yindex % 2 == 0
               ? styles.bblock
               : styles.gblock
           }
