@@ -2,6 +2,7 @@
 
 Repo for data sharing
 ## Important Reference Links
+- Sample Repo: https://github.com/kamiuetian/StudentSampleRepo
 - Installation:  https://reactnative.dev/docs/environment-setup
 - React Concepts: https://reactnative.dev/docs/intro-react
 - Components and APIs: https://reactnative.dev/docs/components-and-apis
