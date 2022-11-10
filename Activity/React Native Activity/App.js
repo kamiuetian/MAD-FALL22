@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   StyleSheet,
   Text,
@@ -6,25 +6,52 @@ import {
   TouchableOpacity,
   Image,
   Pressable,
+  Button,
 } from "react-native";
+import AlertComponent from "./Components/AlertComponent";
 import CounterBSE from "./Components/CounterBSE";
 import CounterExample from "./Components/CounterExample";
+import Lab6 from "./Components/Lab6";
 import Lab7 from "./Components/Lab7";
+import LabTask28Oct from "./Components/LabTask28Oct";
 import MyText from "./Components/MyText.jsx";
 export default function App() {
   let [counter, setCounter] = useState(0);
-  console.log("App Component loaded");
+  useEffect(() => {
+    console.log("useEffect hook called");
+  }, []); /*1- Called on every render
+  2- [] called on first render only
+  */
+  useEffect(() => {
+    console.log("useEffect hook called on counter update");
+  }, [counter]);
+
+  /* let [counter, setCounter] = useState(0);
+  let abc = 1;
   function onTextPressed() {
     console.log("Text Pressed");
   }
   function onBtnPressed() {}
-
+ */
   return (
-    <View style={sty.container}>
-      {/* <CounterBSE counter={counter} setCounter={setCounter}></CounterBSE>
-      
- */}
-      <Pressable
+    <View style={{ flex: 1, paddingTop: 30 }}>
+      <Text>{counter}</Text>
+      <Button
+        title="Increment"
+        onPress={() => {
+          setCounter((counter += 1));
+        }}
+      ></Button>
+
+      {/**Lab Task Flat List */}
+      {/*
+      <CounterBSE
+        abc={abc}
+        counter={counter}
+        setCounter={setCounter}
+      ></CounterBSE> */}
+
+      {/* <Pressable
         onPressIn={() => {
           console.log("on Press In called");
         }}
@@ -41,7 +68,7 @@ export default function App() {
         <View style={{ width: 100, height: 100, backgroundColor: "green" }}>
           <Text>This is my article</Text>
         </View>
-      </Pressable>
+      </Pressable> */}
 
       {/* <CounterExample
         counter={counter}
@@ -54,17 +81,3 @@ export default function App() {
     </View>
   );
 }
-
-const sty = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  btn: {
-    width: 50,
-    height: 50,
-    backgroundColor: "red",
-  },
-});
