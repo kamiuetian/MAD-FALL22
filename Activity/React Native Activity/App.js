@@ -16,15 +16,15 @@ import Lab7 from "./Components/Lab7";
 import LabTask28Oct from "./Components/LabTask28Oct";
 import MyText from "./Components/MyText.jsx";
 export default function App() {
-  let [counter, setCounter] = useState(0);
+  /* let [counter, setCounter] = useState(0);
   useEffect(() => {
     console.log("useEffect hook called");
   }, []); /*1- Called on every render
   2- [] called on first render only
   */
-  useEffect(() => {
+  /* useEffect(() => {
     console.log("useEffect hook called on counter update");
-  }, [counter]);
+  }, [counter]); */
 
   /* let [counter, setCounter] = useState(0);
   let abc = 1;
@@ -35,13 +35,14 @@ export default function App() {
  */
   return (
     <View style={{ flex: 1, paddingTop: 30 }}>
-      <Text>{counter}</Text>
+      <AlertComponent></AlertComponent>
+      {/* <Text>{counter}</Text>
       <Button
         title="Increment"
         onPress={() => {
           setCounter((counter += 1));
         }}
-      ></Button>
+      ></Button> */}
 
       {/**Lab Task Flat List */}
       {/*
