@@ -1,0 +1,8 @@
+Create an app that gets the current location of user.
+
+And add a marker in map on current location.
+
+And draw a circle of 100m around the current position of user.
+
+Make the Pin draggable and on changing the position the circle should
+redraw based on new center coordinates.
